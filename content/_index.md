@@ -3,39 +3,28 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Introduction
 
-{{< columns >}}
-## Astris ipse furtiva
+## What's Scopes anyway?
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+## Who is this guide for?
 
-<--->
+You're expected to already understand the basics of programming in general, and some 
+systems programming concepts like memory management and how to properly use a toolchain.
+Some amount of C (or equivalent) programming experience would be best.
 
-## Suis quot vota
+It would also be helpful (but not necessary) to be familiar with the languages Scopes borrows
+from. If you already know some Rust, Scheme or Lua you may have a headstart in understanding 
+how certain things work, or why they are that way. If you don't, don't worry!
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+## What it's NOT about
 
+I do not mean to teach you how to program. I leave it to you to best choose the methods
+and approaches that suit the problem at hand - use your best judgement.
+What I present here are the tools Scopes puts at your disposal and how they work.
 
-## Tempora nisi nunc
-
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+In fact, Scopes is all about _programming by your rules_. It does not strongly 
+enforce paradigms, and as a community we prefer not to shame people for doing things their
+own way.
+While some design decisions nudge you in certain directions, the intention is that the user
+may shape it into whatever they need.
