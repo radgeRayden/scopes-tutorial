@@ -6,3 +6,4 @@ enableGitInfo = true
 
 [params]
 BookTheme = "light"
+BookRepo = "https://github.com/radgeRayden/scopes-tutorial"
