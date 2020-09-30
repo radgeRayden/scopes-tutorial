@@ -1,4 +1,8 @@
 baseURL = "https://learn-scopes.westerbly.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Programming in Scopes"
 theme = "book"
+enableGitInfo = true
+
+[params]
+BookTheme = "light"
