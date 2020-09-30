@@ -1,4 +1,4 @@
-baseURL = "learn-scopes.westerbly.dev"
+baseURL = "https://learn-scopes.westerbly.dev/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "book"
