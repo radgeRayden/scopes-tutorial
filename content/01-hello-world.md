@@ -30,7 +30,8 @@ You can also use the REPL. Just run scopes without arguments:
     hello world
     $0 ► 
     
-I won't talk much about the REPL on this tutorial, because it's very often the same as just running from a file. But it's very useful to quickly experiment with some snippet or poke at a feature of the language. 
+I won't talk much about the REPL on this tutorial, because it's very often the same as just running from a file, and the [official docs](https://scopes.readthedocs.io/en/latest/tutorial/#interactive-console)
+already cover it pretty well. But it's very useful to quickly experiment with some snippet or poke at a feature of the language. 
 It's also just as powerful! You can even use C libraries from it, because it's the same runtime - just live compiling whatever you type in.
 
-There's one rule that is different, however: to add a new line, add a space at the end of the line, then press enter. This way you're able to compose more complex code just like in a file. In general you'll want to use the REPL for more quick prototyping, since it gets less convenient the more you type.
+In general you'll want to use the REPL for more quick prototyping, since it gets less convenient the more you type.
