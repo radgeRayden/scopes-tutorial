@@ -22,4 +22,6 @@ It would also be helpful (but not necessary) to be familiar with the languages S
 from. If you already know some Rust, Scheme or Lua you may have a headstart in understanding
 how certain things work, or why they are that way. If you don't, don't worry!
 
+If you haven't already, grab a copy of the runtime or build it from source as explained [here](https://scopes.readthedocs.io/en/latest/intro/).
+
 With that out of the way, let's begin.
