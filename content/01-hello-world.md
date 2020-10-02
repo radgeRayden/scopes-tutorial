@@ -17,7 +17,7 @@ Save it as `hello-world.sc` and run it like so:
 Notice we didn't produce an executable, but ran it using the compiler, similar to what one would do in a scripting language.
 Also, there's no main function. So how does it work?
 
-For now, all you need to know is that the module you launch as your program is the equivalent to your main function. The compiler parses it, compiles then wraps it from its own main, on the fly. Later on we'll explore in depth what's really happening behind the scenes, and other ways to execute code.
+For now, all you need to know is that the module you launch as your program is the equivalent to your main function. The compiler parses it, compiles then wraps it from its own main, on the fly. Later on we'll explore in depth what's really happening behind the scenes, and other ways to execute code. And yes, you **can** make a traditional executable.
     
 You can also use the REPL. Just run scopes without arguments:
 
