@@ -8,11 +8,15 @@ weight: 1
 
 As is tradition, this is our first Scopes program:
 
-    print "Hello, world!"
+{{<prism scopes>}}
+print "Hello, world!"
+{{</prism>}}
     
 Save it as `hello-world.sc` and run it like so:
 
-    scopes hello-world.sc
+{{<prism scopes>}}
+scopes hello-world.sc
+{{</prism>}}
     
 Notice we didn't produce an executable, but ran it using the compiler, similar to what one would do in a scripting language.
 Also, there's no main function. So how does it work?
@@ -21,14 +25,16 @@ For now, all you need to know is that the module you launch as your program is t
     
 You can also use the REPL. Just run scopes without arguments:
 
-     ❯ scopes
-      \\\
-       \\\   Scopes 0.17 (Sep  6 2020, 17:53:07)
-     ///\\\  http://scopes.rocks
-    ///  \\\
-    $0 ► print "hello world"
-    hello world
-    $0 ► 
+{{< prism unknown >}}
+❯ scopes
+  \\\
+   \\\   Scopes 0.17 (Sep  6 2020, 17:53:07)
+ ///\\\  http://scopes.rocks
+///  \\\
+$0 ► print "hello world"
+hello world
+$0 ► 
+{{< /prism >}}
     
 I won't talk much about the REPL on this tutorial, because it's very often the same as just running from a file, and the [official docs](https://scopes.readthedocs.io/en/latest/tutorial/#interactive-console)
 already cover it pretty well. But it's very useful to quickly experiment with some snippet or poke at a feature of the language. 
