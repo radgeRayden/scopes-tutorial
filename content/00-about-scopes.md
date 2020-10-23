@@ -47,6 +47,6 @@ Of course, not everything is perfect, and some design decisions lend themselves 
 
 The heavy reliance on type inference is a tradeoff between low friction and predictability. It inherits some of the same problems (dynamically typed) scripting languages face, as it's not always clear at a glance what types are at play, and some mistakes can only be caught when functions are actually used, at which point typechecking can occur[^3]. 
 
-[^1]: Meaning it can do lower level operations like addressing memory and emits code without hidden abstractions like a GC or type boxing.
+[^1]: Meaning it can do lower level operations like addressing memory and emits code without hidden abstractions such as a GC or type boxing.
 [^2]: In particular it is useful to be able to execute a shader on the CPU with minimal wrapping for fine grained debugging of program logic.
 [^3]: TODO: cite chapter that explains how function instantiation works.
