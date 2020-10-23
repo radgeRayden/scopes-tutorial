@@ -23,7 +23,7 @@ At its core, it is a systems programming language[^1] like C, C++ or Rust. Unlik
 
 In game development, an important concern is to see changes as fast as possible. With the use of the live compiler, we avoid the friction of build systems altogether, and live reloading is trivial to implement for the simple case. Multiple build configurations can also be streamlined by using a different file as the program entry. 
 
-When it comes to distribution, one can either produce a native executable, or bundle the compiler with the application if making use of runtime code compilation. This opens avenues for easy modding, and makes patching a non-issue.
+When it comes to distribution, one can either produce a native executable, or bundle the compiler with the application if making use of runtime code compilation. This opens avenues for easy modding, and makes patching the code a non-issue.
 
 Some other useful features in this context include:
 
