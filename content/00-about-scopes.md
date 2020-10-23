@@ -21,7 +21,6 @@ At its core, Scopes is a systems programming language[^1] like C, C++ or Rust. I
 
 ## For game developers
 
-
 ## For language enthusiasts
 
 A common technique when developing a language that targets native code is compiling to C. While that remains a good alternative due to the sheer amount of architectures and operating systems supported, Scopes can be a convenient choice:
