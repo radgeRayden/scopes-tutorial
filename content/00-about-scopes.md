@@ -17,7 +17,7 @@ If you just want to get started learning, it's safe to skip to the next chapter.
 
 The premise is simple: a language that is easy to use, can be customized to solve any problem, has good iteration times and doesn't sacrifice performance. I wouldn't fault you for thinking that's a snake oil pitch, but a carefully selected set of tradeoffs turns it into a realistic claim.
 
-At its core, it is a systems programming language[^1] like C, C++ or Rust. Unlike most lanaguages in that category, however, it is designed in such a way that types can be very frequently implicitly inferred, giving it a distinct scripting language aesthetic. Generics are also a first class citizen: every function is generic by default (but can be explicitly typed if necessary). While unorthodox, this approach reduces friction both in writing code and replacing it.
+At its core, it is a systems programming language[^1] like C, C++ or Rust. Unlike most lanaguages in that category, however, it is designed in such a way that types can be very frequently implicitly inferred, giving it a distinct scripting language aesthetic. Generics are also a first class citizen: every function is generic by default (but can be explicitly typed if necessary). While unorthodox, this approach reduces friction both in writing and replacing code.
 
 ## For game developers
 
@@ -27,7 +27,7 @@ When it comes to distribution, one can either produce a native executable, or bu
 
 Some other useful features in this context include:
 
-- A GLSL-based DSL that targets glsl or SPIR-V from Scopes code. A common pattern of pre processing shaders for project specific needs is obviated by this, since constant embedding and conditional code generation can be done via metaprogramming. Moreover code can be reused between the CPU and GPU portions of the application[^2].
+- A GLSL-based DSL paired with a codegen backend that targets glsl or SPIR-V from Scopes code. A common pattern of pre processing shaders for project specific needs is obviated by this, since constant embedding and conditional code generation can be done via metaprogramming. Moreover code can be reused between the CPU and GPU portions of the application[^2].
 - A vector and matrix library modelled after GLM (and by extension GLSL).
 - Can trivially call or be called by C code, due to using the C ABI. Using C libraries involves writing very few lines of code most of the time.
 
